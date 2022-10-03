@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">885168922896-o5m49e78nfpehg5n8mh7pov4e11spe6s.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">885168922896</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6TwYR4Q3-I3rxhRSnYyqbk2UW3_kcr_s</string>
+    <string name="google_app_id" translatable="false">1:885168922896:android:7a6af40a809f34860b8595</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6TwYR4Q3-I3rxhRSnYyqbk2UW3_kcr_s</string>
+    <string name="google_storage_bucket" translatable="false">quixi-338418.appspot.com</string>
+    <string name="project_id" translatable="false">quixi-338418</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "885168922896",
+    "project_id": "quixi-338418",
+    "storage_bucket": "quixi-338418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885168922896:android:7a6af40a809f34860b8595",
+        "android_client_info": {
+          "package_name": "com.quixi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885168922896-o5m49e78nfpehg5n8mh7pov4e11spe6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6TwYR4Q3-I3rxhRSnYyqbk2UW3_kcr_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885168922896-o5m49e78nfpehg5n8mh7pov4e11spe6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

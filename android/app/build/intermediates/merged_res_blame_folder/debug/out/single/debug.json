@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_images_logo.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_images_logo.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_shrink.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_shrink.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_back.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_back.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_outline_cached.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_outline_cached.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_visibility.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_visibility.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_topvignette.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_topvignette.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_outlinepersonblack.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_outlinepersonblack.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_outlinephoto.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_outlinephoto.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_loadericon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_loadericon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_play.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_play.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_loadericon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_loadericon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_erroricon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_erroricon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_shrink.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_shrink.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_topvignette.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_topvignette.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_play.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_play.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_pause.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_pause.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_volume.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_volume.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_back.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_back.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_bottomvignette.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_bottomvignette.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_favorite.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_favorite.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_volume.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_volume.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_pause.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_pause.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_playvideo.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_playvideo.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_play.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_play.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_expand.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_expand.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_solidfavorite.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_solidfavorite.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_expand.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_expand.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_logo.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_logo.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_erroricon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_erroricon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_back.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_back.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_volume.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_volume.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_close.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativecountrypickermodal_lib_assets_images_close.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_erroricon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_erroricon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_topvignette.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_topvignette.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativevideocontrols_assets_img_pause.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativevideocontrols_assets_img_pause.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_shrink.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_shrink.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_outlineplayarrow.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_outlineplayarrow.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_icon_exit.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_icon_exit.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_images_logor.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_images_logor.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_loadericon.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_loadericon.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_expand.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_expand.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xhdpi_node_modules_reactnativevideocontrols_assets_img_bottomvignette.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xhdpi/node_modules_reactnativevideocontrols_assets_img_bottomvignette.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-xxhdpi_node_modules_reactnativevideocontrols_assets_img_bottomvignette.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnativevideocontrols_assets_img_bottomvignette.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_videocam.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_videocam.png"
+    },
+    {
+        "merged": "/Users/mac/Documents/my apps/quixi-rn/android/app/build/intermediates/merged_res/debug/drawable-mdpi_src_assets_icons_outlinechatanswerblack.png.flat",
+        "source": "/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/res/drawable-mdpi/src_assets_icons_outlinechatanswerblack.png"
+    }
+]

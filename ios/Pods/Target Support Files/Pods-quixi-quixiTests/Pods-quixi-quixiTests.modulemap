@@ -1,0 +1,6 @@
+module Pods_quixi_quixiTests {
+  umbrella header "Pods-quixi-quixiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

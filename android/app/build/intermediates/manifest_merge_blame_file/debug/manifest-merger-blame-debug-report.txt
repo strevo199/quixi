@@ -1,0 +1,762 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.quixi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:6:5-70
+14-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:6:22-68
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:8:5-81
+16-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:9:5-66
+17-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:9:22-63
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Define ACCESS_FINE_LOCATION if you will use enableHighAccuracy=true -->
+18-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:10:5-80
+18-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:10:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Define ACCESS_COARSE_LOCATION if you will use enableHighAccuracy=false -->
+19-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:12:5-78
+19-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:15:5-80
+20-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.facebook.flipper:flipper:0.99.0] /Users/mac/.gradle/caches/transforms-3/4a1103e8383d37e71974f109eeef72d2/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+21-->[com.facebook.flipper:flipper:0.99.0] /Users/mac/.gradle/caches/transforms-3/4a1103e8383d37e71974f109eeef72d2/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+22-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+23-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+24-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+25
+26    <uses-feature
+26-->[:react-native-camera] /Users/mac/Documents/my apps/quixi-rn/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+27        android:name="android.hardware.camera"
+27-->[:react-native-camera] /Users/mac/Documents/my apps/quixi-rn/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
+28        android:required="false" />
+28-->[:react-native-camera] /Users/mac/Documents/my apps/quixi-rn/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
+29    <uses-feature
+29-->[:react-native-camera] /Users/mac/Documents/my apps/quixi-rn/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+30        android:name="android.hardware.camera.autofocus"
+30-->[:react-native-camera] /Users/mac/Documents/my apps/quixi-rn/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
+31        android:required="false" />
+31-->[:react-native-camera] /Users/mac/Documents/my apps/quixi-rn/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
+32
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+33-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+33-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:28:22-74
+34
+35    <uses-feature
+35-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-3/93af4020f79130e3c12a7e83607aef07/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+36        android:glEsVersion="0x00020000"
+36-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-3/93af4020f79130e3c12a7e83607aef07/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+37        android:required="true" />
+37-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-3/93af4020f79130e3c12a7e83607aef07/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+38
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+39-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+39-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+40    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- for android -->
+40-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac/.gradle/caches/transforms-3/74026f6b29e7fc8fbfa0feb98dca4f7c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+40-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac/.gradle/caches/transforms-3/74026f6b29e7fc8fbfa0feb98dca4f7c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+41    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+42    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+44    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+45    <!-- for Samsung -->
+46    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+48    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+49    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+50    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+51    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+52    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+53    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+54    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+55    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+56    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+57    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+58    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+59    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+60    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/8c1b740bde787c55c01724aa7f6f1533/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+62
+63    <application
+63-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:17:5-62:19
+64        android:name="com.quixi.MainApplication"
+64-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:18:7-38
+65        android:allowBackup="false"
+65-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:22:7-34
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.6.0] /Users/mac/.gradle/caches/transforms-3/065ee27eb24e419ff009b486cc2733bf/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+67        android:debuggable="true"
+68        android:icon="@mipmap/ic_launcher"
+68-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:20:7-41
+69        android:label="@string/app_name"
+69-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:19:7-39
+70        android:roundIcon="@mipmap/ic_launcher_round"
+70-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:21:7-52
+71        android:theme="@style/AppTheme"
+71-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:23:7-38
+72        android:usesCleartextTraffic="true" >
+72-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/debug/AndroidManifest.xml:8:9-44
+73        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+73-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/debug/AndroidManifest.xml:11:9-86
+73-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/debug/AndroidManifest.xml:11:19-83
+74        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+75        <meta-data
+75-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:25:9-26:44
+76            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+76-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:25:21-97
+77            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+77-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:26:21-42
+78        <meta-data
+78-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:28:9-29:54
+79            android:name="com.dieam.reactnativepushnotification.notification_color"
+79-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:28:21-92
+80            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+80-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:29:21-52
+81        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+81-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:31:9-108
+81-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:31:19-105
+82        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+82-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:32:9-110
+82-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:32:19-107
+83        <receiver
+83-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:33:9-40:20
+84            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+84-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:33:19-115
+85            android:exported="false" >
+85-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:34:9-33
+86            <intent-filter>
+86-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:35:13-39:29
+87                <action android:name="android.intent.action.BOOT_COMPLETED" />
+87-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:36:17-79
+87-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:36:25-76
+88                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+88-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:37:17-82
+88-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:37:25-79
+89                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+89-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:38:17-81
+89-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:38:25-79
+90            </intent-filter>
+91        </receiver>
+92
+93        <service
+93-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:42:9-48:19
+94            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+94-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:43:13-107
+95            android:exported="false" >
+95-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:44:13-37
+96            <intent-filter>
+96-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:45:13-47:29
+97                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+97-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:46:17-78
+97-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:46:25-75
+98            </intent-filter>
+99        </service>
+100
+101        <activity
+101-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:49:7-61:18
+102            android:name="com.quixi.MainActivity"
+102-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:50:9-37
+103            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+103-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:52:9-86
+104            android:exported="true"
+104-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:55:9-32
+105            android:label="@string/app_name"
+105-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:51:9-41
+106            android:launchMode="singleTask"
+106-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:53:9-40
+107            android:windowSoftInputMode="adjustResize" >
+107-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:54:9-51
+108            <intent-filter>
+108-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:57:9-60:25
+109                <action android:name="android.intent.action.MAIN" />
+109-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:58:13-65
+109-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:58:21-62
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:59:13-73
+111-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:59:23-70
+112            </intent-filter>
+113        </activity>
+114
+115        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+115-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+115-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+116        <service
+116-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+117            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+117-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+118            android:exported="false" >
+118-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+119            <intent-filter>
+119-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:45:13-47:29
+120                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+120-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:46:17-78
+120-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:46:25-75
+121            </intent-filter>
+122        </service>
+123
+124        <receiver
+124-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+125            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+125-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+126            android:exported="true"
+126-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+127            android:permission="com.google.android.c2dm.permission.SEND" >
+127-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+128            <intent-filter>
+128-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+129                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+129-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+129-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+130            </intent-filter>
+131        </receiver>
+132
+133        <meta-data
+133-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+134            android:name="firebase_messaging_auto_init_enabled"
+134-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+135            android:value="true" />
+135-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+136        <meta-data
+136-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+137            android:name="com.google.firebase.messaging.default_notification_channel_id"
+137-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+138            android:value="" />
+138-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+139        <meta-data
+139-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+140            android:name="com.google.firebase.messaging.default_notification_color"
+140-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+141            android:resource="@color/white" />
+141-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+142        <meta-data
+142-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+143            android:name="app_data_collection_default_enabled"
+143-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+144            android:value="true" />
+144-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+145
+146        <service
+146-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+147            android:name="com.google.firebase.components.ComponentDiscoveryService"
+147-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-3/cc8ffe6bd1120305d51625ed8614fd7d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+150            <meta-data
+150-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+151                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+151-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+154                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+154-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/mac/.gradle/caches/transforms-3/457a05a403f8a8524eb726d1e58a008b/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+157                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+157-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/mac/.gradle/caches/transforms-3/457a05a403f8a8524eb726d1e58a008b/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/mac/.gradle/caches/transforms-3/457a05a403f8a8524eb726d1e58a008b/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+159            <meta-data
+159-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/mac/.gradle/caches/transforms-3/e1d737715743c288397df1c85a87f0c7/transformed/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+160                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+160-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/mac/.gradle/caches/transforms-3/e1d737715743c288397df1c85a87f0c7/transformed/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/mac/.gradle/caches/transforms-3/e1d737715743c288397df1c85a87f0c7/transformed/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-installations:17.0.0] /Users/mac/.gradle/caches/transforms-3/39e2220bc307e64672799b0434247fb6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+163                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+163-->[com.google.firebase:firebase-installations:17.0.0] /Users/mac/.gradle/caches/transforms-3/39e2220bc307e64672799b0434247fb6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-installations:17.0.0] /Users/mac/.gradle/caches/transforms-3/39e2220bc307e64672799b0434247fb6/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+165        </service>
+166
+167        <provider
+167-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+168            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+168-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+169            android:authorities="com.quixi.reactnativefirebaseappinitprovider"
+169-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+170            android:exported="false"
+170-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+171            android:initOrder="99" />
+171-->[:react-native-firebase_app] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+172
+173        <receiver
+173-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+174            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+174-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+175            android:exported="true"
+175-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+176            android:permission="com.google.android.c2dm.permission.SEND" >
+176-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+177            <intent-filter>
+177-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+178                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+178-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+178-->[:react-native-firebase_messaging] /Users/mac/Documents/my apps/quixi-rn/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+179            </intent-filter>
+180        </receiver>
+181        <!--
+182             FirebaseMessagingService performs security checks at runtime,
+183             but set to not exported to explicitly avoid allowing another app to call it.
+184        -->
+185        <service
+185-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+186            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+186-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+187            android:directBootAware="true"
+187-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+188            android:exported="false" >
+188-->[com.google.firebase:firebase-messaging:23.0.0] /Users/mac/.gradle/caches/transforms-3/c2bc81e1d9b21c24ef2ffbdabb397b88/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+189            <intent-filter android:priority="-500" >
+189-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:45:13-47:29
+190                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+190-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:46:17-78
+190-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:46:25-75
+191            </intent-filter>
+192        </service>
+193        <service
+193-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/mac/.gradle/caches/transforms-3/1df88e36640b1c8669d885649232c913/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:9:9-15:19
+194            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+194-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/mac/.gradle/caches/transforms-3/1df88e36640b1c8669d885649232c913/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:10:13-91
+195            android:directBootAware="true"
+195-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+196            android:exported="false" >
+196-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/mac/.gradle/caches/transforms-3/1df88e36640b1c8669d885649232c913/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:11:13-37
+197            <meta-data
+197-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/mac/.gradle/caches/transforms-3/1df88e36640b1c8669d885649232c913/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+198                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+198-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/mac/.gradle/caches/transforms-3/1df88e36640b1c8669d885649232c913/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/mac/.gradle/caches/transforms-3/1df88e36640b1c8669d885649232c913/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+200            <meta-data
+200-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/mac/.gradle/caches/transforms-3/78d0b2b73be3d4301f282658a784ecea/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+201                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+201-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/mac/.gradle/caches/transforms-3/78d0b2b73be3d4301f282658a784ecea/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/mac/.gradle/caches/transforms-3/78d0b2b73be3d4301f282658a784ecea/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+203            <meta-data
+203-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/mac/.gradle/caches/transforms-3/62a302c35ef482fc4ca514430d8f8bb6/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+204                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+204-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/mac/.gradle/caches/transforms-3/62a302c35ef482fc4ca514430d8f8bb6/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/mac/.gradle/caches/transforms-3/62a302c35ef482fc4ca514430d8f8bb6/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+206            <meta-data
+206-->[com.google.mlkit:vision-common:16.5.0] /Users/mac/.gradle/caches/transforms-3/6925164a2a49dd9ab4f6fd53e6c3b3fc/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+207                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+207-->[com.google.mlkit:vision-common:16.5.0] /Users/mac/.gradle/caches/transforms-3/6925164a2a49dd9ab4f6fd53e6c3b3fc/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+208                android:value="com.google.firebase.components.ComponentRegistrar" />
+208-->[com.google.mlkit:vision-common:16.5.0] /Users/mac/.gradle/caches/transforms-3/6925164a2a49dd9ab4f6fd53e6c3b3fc/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+209            <meta-data
+209-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+210                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+210-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+211                android:value="com.google.firebase.components.ComponentRegistrar" />
+211-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+212        </service>
+213
+214        <provider
+214-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+215            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+215-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+216            android:authorities="com.quixi.mlkitinitprovider"
+216-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+217            android:exported="false"
+217-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+218            android:initOrder="99" />
+218-->[com.google.mlkit:common:17.2.0] /Users/mac/.gradle/caches/transforms-3/37ba508676471cead507171c615e7179/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+219
+220        <service
+220-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-3/b87891a510e828496deb7f65d7fef294/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+221            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+221-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-3/b87891a510e828496deb7f65d7fef294/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+222            android:exported="false" >
+222-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-3/b87891a510e828496deb7f65d7fef294/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+223            <meta-data
+223-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-3/b87891a510e828496deb7f65d7fef294/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+224                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+224-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-3/b87891a510e828496deb7f65d7fef294/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+225                android:value="cct" />
+225-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-3/b87891a510e828496deb7f65d7fef294/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+226        </service>
+227
+228        <provider
+228-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-3/cc8ffe6bd1120305d51625ed8614fd7d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+229            android:name="com.google.firebase.provider.FirebaseInitProvider"
+229-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-3/cc8ffe6bd1120305d51625ed8614fd7d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+230            android:authorities="com.quixi.firebaseinitprovider"
+230-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-3/cc8ffe6bd1120305d51625ed8614fd7d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+231            android:directBootAware="true"
+231-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-3/cc8ffe6bd1120305d51625ed8614fd7d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+232            android:exported="false"
+232-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-3/cc8ffe6bd1120305d51625ed8614fd7d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+233            android:initOrder="100" />
+233-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-3/cc8ffe6bd1120305d51625ed8614fd7d/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+234        <provider
+234-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+235            android:name="androidx.work.impl.WorkManagerInitializer"
+235-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+236            android:authorities="com.quixi.workmanager-init"
+236-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+238            android:exported="false"
+238-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+239            android:multiprocess="true" />
+239-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+240
+241        <service
+241-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+242            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+242-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+243            android:directBootAware="false"
+243-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+244            android:enabled="@bool/enable_system_alarm_service_default"
+244-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+245            android:exported="false" />
+245-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+246        <service
+246-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+247            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+247-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+248            android:directBootAware="false"
+248-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+249            android:enabled="@bool/enable_system_job_service_default"
+249-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+250            android:exported="true"
+250-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+251            android:permission="android.permission.BIND_JOB_SERVICE" />
+251-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+252        <service
+252-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+253            android:name="androidx.work.impl.foreground.SystemForegroundService"
+253-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+254            android:directBootAware="false"
+254-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+255            android:enabled="@bool/enable_system_foreground_service_default"
+255-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+256            android:exported="false" />
+256-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+257
+258        <receiver
+258-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+259            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+259-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+260            android:directBootAware="false"
+260-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+261            android:enabled="true"
+261-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+262            android:exported="false" />
+262-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+263        <receiver
+263-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+264            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+264-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+265            android:directBootAware="false"
+265-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+266            android:enabled="false"
+266-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+267            android:exported="false" >
+267-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+268            <intent-filter>
+268-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+269                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+269-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+269-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+270                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+270-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+270-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+271            </intent-filter>
+272        </receiver>
+273        <receiver
+273-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+274            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+274-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+275            android:directBootAware="false"
+275-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+276            android:enabled="false"
+276-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+277            android:exported="false" >
+277-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+278            <intent-filter>
+278-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+279                <action android:name="android.intent.action.BATTERY_OKAY" />
+279-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+279-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+280                <action android:name="android.intent.action.BATTERY_LOW" />
+280-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+280-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+281            </intent-filter>
+282        </receiver>
+283        <receiver
+283-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+284            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+284-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+285            android:directBootAware="false"
+285-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+286            android:enabled="false"
+286-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+287            android:exported="false" >
+287-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+288            <intent-filter>
+288-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+289                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+289-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+289-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+290                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+290-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+290-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+291            </intent-filter>
+292        </receiver>
+293        <receiver
+293-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+294            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+294-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+295            android:directBootAware="false"
+295-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+296            android:enabled="false"
+296-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+297            android:exported="false" >
+297-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+298            <intent-filter>
+298-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+299                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+299-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+299-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+300            </intent-filter>
+301        </receiver>
+302        <receiver
+302-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+303            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+303-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+304            android:directBootAware="false"
+304-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+305            android:enabled="false"
+305-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+306            android:exported="false" >
+306-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+307            <intent-filter>
+307-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+308                <action android:name="android.intent.action.BOOT_COMPLETED" />
+308-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:36:17-79
+308-->/Users/mac/Documents/my apps/quixi-rn/android/app/src/main/AndroidManifest.xml:36:25-76
+309                <action android:name="android.intent.action.TIME_SET" />
+309-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+309-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+310                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+310-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+310-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+311            </intent-filter>
+312        </receiver>
+313        <receiver
+313-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+314            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+314-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+315            android:directBootAware="false"
+315-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+316            android:enabled="@bool/enable_system_alarm_service_default"
+316-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+317            android:exported="false" >
+317-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+318            <intent-filter>
+318-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+319                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+319-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+319-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+320            </intent-filter>
+321        </receiver>
+322        <receiver
+322-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+323            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+323-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+324            android:directBootAware="false"
+324-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+325            android:enabled="true"
+325-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+326            android:exported="true"
+326-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+327            android:permission="android.permission.DUMP" >
+327-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+328            <intent-filter>
+328-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+329                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+329-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+329-->[androidx.work:work-runtime:2.5.0] /Users/mac/.gradle/caches/transforms-3/2acc2f1ec7590eb4ebcac027b74ae56d/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+330            </intent-filter>
+331        </receiver>
+332
+333        <service
+333-->[androidx.room:room-runtime:2.2.5] /Users/mac/.gradle/caches/transforms-3/826d2efe06aefef21cfffdea5440e98e/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+334            android:name="androidx.room.MultiInstanceInvalidationService"
+334-->[androidx.room:room-runtime:2.2.5] /Users/mac/.gradle/caches/transforms-3/826d2efe06aefef21cfffdea5440e98e/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+335            android:directBootAware="true"
+335-->[androidx.room:room-runtime:2.2.5] /Users/mac/.gradle/caches/transforms-3/826d2efe06aefef21cfffdea5440e98e/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+336            android:exported="false" />
+336-->[androidx.room:room-runtime:2.2.5] /Users/mac/.gradle/caches/transforms-3/826d2efe06aefef21cfffdea5440e98e/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+337
+338        <meta-data
+338-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-3/b9f87db4f87e9776ca62caa6f3f2a0fe/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+339            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+339-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-3/b9f87db4f87e9776ca62caa6f3f2a0fe/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+340            android:value="GlideModule" />
+340-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/mac/.gradle/caches/transforms-3/b9f87db4f87e9776ca62caa6f3f2a0fe/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+341
+342        <service
+342-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-3/0a3ec486c75c63530ba62a9b57789a1a/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+343            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+343-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-3/0a3ec486c75c63530ba62a9b57789a1a/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+344            android:exported="false"
+344-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-3/0a3ec486c75c63530ba62a9b57789a1a/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+345            android:permission="android.permission.BIND_JOB_SERVICE" >
+345-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-3/0a3ec486c75c63530ba62a9b57789a1a/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+346        </service>
+347
+348        <receiver
+348-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-3/0a3ec486c75c63530ba62a9b57789a1a/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+349            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+349-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-3/0a3ec486c75c63530ba62a9b57789a1a/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+350            android:exported="false" />
+350-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-3/0a3ec486c75c63530ba62a9b57789a1a/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+351
+352        <activity
+352-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+353            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+353-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+354            android:excludeFromRecents="true"
+354-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+355            android:exported="false"
+355-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+356            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+356-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+357        <!--
+358            Service handling Google Sign-In user revocation. For apps that do not integrate with
+359            Google Sign-In, this service will never be started.
+360        -->
+361        <service
+361-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+362            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+362-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+363            android:exported="true"
+363-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+364            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+364-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+365            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+365-->[com.google.android.gms:play-services-auth:20.0.1] /Users/mac/.gradle/caches/transforms-3/55eb1902d7247aef7c31bb2e95f63597/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+366        <uses-library
+366-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-3/93af4020f79130e3c12a7e83607aef07/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+367            android:name="org.apache.http.legacy"
+367-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-3/93af4020f79130e3c12a7e83607aef07/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+368            android:required="false" />
+368-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-3/93af4020f79130e3c12a7e83607aef07/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+369
+370        <activity
+370-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/ac9039ffa647559f04b68a5d72a4a012/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+371            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+371-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/ac9039ffa647559f04b68a5d72a4a012/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+372            android:exported="false"
+372-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/ac9039ffa647559f04b68a5d72a4a012/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+373            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+373-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/ac9039ffa647559f04b68a5d72a4a012/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+374
+375        <receiver
+375-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+376            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+376-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+377            android:enabled="true"
+377-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+378            android:exported="false" >
+378-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+379        </receiver>
+380
+381        <service
+381-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+382            android:name="com.google.android.gms.measurement.AppMeasurementService"
+382-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+383            android:enabled="true"
+383-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+384            android:exported="false" />
+384-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+385        <service
+385-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+386            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+386-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+387            android:enabled="true"
+387-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+388            android:exported="false"
+388-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+389            android:permission="android.permission.BIND_JOB_SERVICE" />
+389-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/mac/.gradle/caches/transforms-3/f71d6557b7129ee7c3c1104b81ae97a8/transformed/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+390
+391        <meta-data
+391-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/539641b52e2de37d310fe22809e4c219/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+392            android:name="com.google.android.gms.version"
+392-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/539641b52e2de37d310fe22809e4c219/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+393            android:value="@integer/google_play_services_version" />
+393-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/539641b52e2de37d310fe22809e4c219/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+394    </application>
+395
+396</manifest>
